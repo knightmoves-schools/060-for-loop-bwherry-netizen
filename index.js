@@ -1,10 +1,9 @@
-let todos = ["A", "B", "C"]
-
 function markAsDone (todos) {
-  todos [A] = "done -";
-  todos [B] = "done -";
-  todos [C] = "done -";
+for (let i = 0; < todos.length; i++) {
+  todos[i] = 'done - ' + todos[i]
+  }
+  return todos;
 }
 
-document.getElementById("result").innerHTML = todos;
+
 
