@@ -6,4 +6,5 @@ function markAsDone (todos) {
   todos [C] = "done -";
 }
 
+document.getElementById("result").innerHTML = todos;
 
